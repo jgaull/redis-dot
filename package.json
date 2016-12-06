@@ -1,0 +1,27 @@
+{
+  "name": "redis-dot",
+  "version": "0.0.1",
+  "description": "A redis wrapper utilizing path-proxy for easy dot notation db access",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "homepage": "http://www.modeo.co/",
+  "author": "Jonathan Gaull <jon@modeo.co>",
+  "dependencies": {
+    "ioredis": "^2.4.0",
+    "promise": ">=7.1.1",
+    "path-proxy": "../path-proxy/"
+  },
+  "devDependencies": {
+    "should": "^11.1.1"
+  },
+  "main": "redis-dot",
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  }
+}
