@@ -4,7 +4,7 @@
   "description": "A redis wrapper utilizing path-proxy for easy dot notation db access",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/jgaull/redis-dot.git"
   },
   "license": "MIT",
   "homepage": "http://www.modeo.co/",
