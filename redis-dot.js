@@ -29,7 +29,7 @@ module.exports = function RedisDot() {
 						args[1] = JSON.stringify(args[1]) //then stringify it
 					}
 
-					redis.set.apply(redis, args) //call set() with redis as the 'this' argument
+					return redis.set.apply(redis, args) //call set() with redis as the 'this' argument
 				}
 			}
 			//if we don't need to do any cleanup of the args then call redis directly

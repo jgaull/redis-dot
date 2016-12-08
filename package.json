@@ -12,7 +12,7 @@
   "dependencies": {
     "ioredis": "^2.4.0",
     "promise": ">=7.1.1",
-    "path-proxy": "../path-proxy/"
+    "path-proxy": "jgaull/path-proxy"
   },
   "devDependencies": {
     "should": "^11.1.1"
